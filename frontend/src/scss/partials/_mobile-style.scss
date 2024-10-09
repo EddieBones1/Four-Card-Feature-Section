@@ -1,0 +1,78 @@
+main {
+  display: flex;
+  flex-direction: column;
+  margin-inline: 2rem;
+}
+.title {
+  text-align: center;
+}
+h1 {
+  color: var(--VeryDarkBlue);
+  font-size: var(--fs-1);
+  font-style: normal;
+  font-weight: var(--fw-600);
+  line-height: normal;
+  letter-spacing: var(--ls-1);
+  margin-bottom: 0.81rem;
+}
+span {
+  display: block;
+  color: var(--VeryDarkBlue);
+  font-size: var(--fs-1);
+  font-style: normal;
+  font-weight: 275;
+  line-height: normal;
+  margin-top: 5.31rem;
+  letter-spacing: var(--ls-1);
+}
+.title p {
+  color: var(--VeryDarkBlue);
+  font-size: var(--fs-2);
+  font-style: normal;
+  font-weight: var(--fw-400);
+  line-height: 1.5625rem;
+  letter-spacing: var(--ls-2);
+  margin-bottom: 4.75rem;
+}
+
+.card {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.56rem;
+  background-color: var(--VeryLightGray);
+  border-radius: 0.5rem;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  width: 19.4375rem;
+  height: auto;
+}
+.card-1 {
+  border-top: 4px solid var(--Cyan);
+}
+
+.card-2 {
+  border-top: 4px solid var(--Red);
+}
+
+.card-3 {
+  border-top: 4px solid var(--Orange);
+}
+
+.card-4 {
+  border-top: 4px solid var(--Blue);
+}
+
+.card h1 {
+  margin-top: 1.69rem;
+  margin-left: 1.75rem;
+  margin-bottom: 0.06rem;
+}
+.card p {
+  color: var(--GrayishBlue);
+  font-size: var(--fs-4);
+  font-style: normal;
+  font-weight: var(--fw-400);
+  line-height: 1.4375rem;
+  letter-spacing: var(--ls-3);
+  margin-left: 1.81rem;
+}
