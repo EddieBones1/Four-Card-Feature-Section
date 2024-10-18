@@ -1,0 +1,35 @@
+/*Primary Colors */
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+
+  /*Neutral Colors */
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-gray: hsl(0, 0%, 98%);
+
+  /*font weight */
+  --fw-200: 200;
+  --fw-275: 275;
+  --fw-400: 400;
+  --fw-600: 600;
+
+  /*letter spacing */
+  --ls-1: 0.01044rem;
+  --ls-2: 0.0065rem;
+  --ls-3: 0.00563rem;
+
+  /* letter spacing desktop */
+  --ls-1-desk: 0.01563rem;
+
+  /*font size mobile */
+  --fs-1: 1.5rem;
+  --fs-2: 0.9375rem;
+  --fs-3: 1.25rem;
+  --fs-4: 0.8125rem;
+
+  /* font size desktop */
+  --fs-1-desk: 2.25rem;
+}
