@@ -1,8 +1,4 @@
 @media screen and (min-width: 90rem/* 1440px */) {
-  .main {
-    padding: 5rem 10.3125rem;
-    gap: 4rem;
-  }
   span {
     letter-spacing: var(--ls-1-desk);
     font-size: var(--fs-1-desk);
@@ -15,16 +11,19 @@
 
   .title p {
     text-align: center;
-    max-width: 33rem;
+    width: 33rem;
     margin: auto;
   }
   .cards {
-    max-width: 69.375rem;
     margin: auto;
     padding: 4.5rem 7rem 0 7rem;
     display: grid;
     gap: 0.5rem;
     grid-template-columns: repeat(3, 1fr);
+  }
+  .card {
+    max-width: 22rem;
+    height: 15.625rem;
   }
   .card-1 {
     margin: auto;
@@ -42,9 +41,9 @@
     transform: translate(5%, -53%);
   }
   .card img {
-    margin: 0 1rem 1rem 0;
+    margin: 0 2rem 1rem 0;
   }
   .attribution {
-    transform: translate(0, -5%);
+    transform: translate(0%, -5%);
   }
 }
