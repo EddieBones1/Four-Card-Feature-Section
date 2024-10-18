@@ -1,4 +1,7 @@
 @media screen and (min-width: 90rem/* 1440px */) {
+  body {
+    height: 100vh;
+  }
   span {
     letter-spacing: var(--ls-1-desk);
     font-size: var(--fs-1-desk);
